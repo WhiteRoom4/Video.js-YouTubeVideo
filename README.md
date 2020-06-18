@@ -18,11 +18,11 @@ https://cdnjs.com/libraries/videojs-youtube
 
 
 https://www.coder.work/article/1735660  
-繼續搜尋一些文章後發現，用 JS 來建立 Video.js 播放器物件： videojs('播放器nodeID',播放器設置,回呼函式);
+繼續搜尋一些文章後發現，用 JS 來建立 Video.js 播放器物件： videojs('播放器nodeID',播放器設置,回呼函式);  
 第二個參數：播放器設置需要 sources 屬性設定影片連結時，需要同時設定type: "video/youtube" ，就可以讓影片正常播放。
 
 
-PS：
+PS：  
 發現有些 YouTube 影片可以正常播放，有些卻無法播放，顯示 Playback on other Websites has been disabled by the video owner. 的訊息。
 針對這個問題爬文，發現那是因為有些影片擁有者不希望視頻在其他網站上播放，這些受到限制的影片目前沒有解決辦法。  
 https://www.quora.com/Is-there-a-work-around-on-embedding-YouTube-videos-without-getting-the-message-playback-on-other-websites-has-been-disabled
