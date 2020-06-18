@@ -19,7 +19,7 @@ https://cdnjs.com/libraries/videojs-youtube
 
 https://www.coder.work/article/1735660  
 繼續搜尋一些文章後發現，用 JS 來建立 Video.js 播放器物件： videojs('播放器nodeID',播放器設置,回呼函式);  
-第二個參數：播放器設置需要 sources 屬性設定影片連結時，需要同時設定type: "video/youtube" ，就可以讓影片正常播放。
+第二個參數：播放器設置使用 sources 屬性設定影片連結時，也需要設定type: "video/youtube" ，才可以讓影片正常播放。
 
 
 PS：  
