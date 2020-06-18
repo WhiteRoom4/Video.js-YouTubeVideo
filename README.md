@@ -12,14 +12,15 @@ https://ithelp.ithome.com.tw/articles/10209237
 
 
 https://cdnjs.com/libraries/videojs-youtube  
-上述文章提供了 Youtube.js 的CDN，故在HTML文件新增一行：
+上述文章提供了 Youtube.js 的 CDN ，故在 index.html 新增此行：
 <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.1/Youtube.min.js"></script>
 再執行一次，發現還是無法正常播放，顯示 No compatible source was found for this media. 的訊息。
 
 
 https://www.coder.work/article/1735660  
-繼續搜尋一些文章後發現，用 JS 來建立 Video.js 播放器物件： videojs('播放器nodeID',播放器設置,回呼函式);  
+繼續搜尋一些文章後發現，在 all.js 中，用 JS 來建立 Video.js 播放器物件： videojs('播放器nodeID',播放器設置,回呼函式);  
 第二個參數：播放器設置使用 sources 屬性設定影片連結時，也需要設定type: "video/youtube" ，才可以讓影片正常播放。
+- 若想播放其他的 YouTube 影片，只要修改 sources 屬性的影片連結( src )，改成 src: "打算播放的 youtube 影片網址"，就可以變更影片。
 
 
 PS：  
