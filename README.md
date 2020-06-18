@@ -21,7 +21,7 @@ https://www.coder.work/article/1735660
 繼續搜尋一些文章後發現，在 all.js 中，用 JS 來建立 Video.js 播放器物件： videojs('播放器nodeID',播放器設置,回呼函式);  
 第二個參數：播放器設置使用 sources 屬性設定影片連結時，也需要設定type: "video/youtube" ，才可以讓影片正常播放。
 ```diff
-- 若想播放其他的 YouTube 影片，只要修改 sources 屬性的影片連結( src )，改成 src: "打算播放的 youtube 影片網址"，就可以變更影片。
+- 若想播放其他的 YouTube 影片，只要修改 sources 屬性的影片連結( src )，改成 src: "打算播放的 YouTube 影片網址"，就可以變更影片。
 ```
 
 
